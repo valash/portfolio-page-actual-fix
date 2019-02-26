@@ -1,0 +1,180 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    height: 80%;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}
+
+.header {
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    background-image: url("/Users/Virginia/wdi/projects/portfolio-page-fix/portfolio-img/goldtextbackground.png");
+    background-size: auto;
+    color: white;
+    text-shadow:rgb(34, 35, 36) 0px 0px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 45px;
+    background-size: cover;
+    text-transform: full-width;
+    
+}
+
+img {
+    display: flex;
+    height: 132px;
+    margin: 0 auto;
+    
+}
+
+.wrapper {
+    height: 300px;
+    margin: 56px;
+}
+
+.about-me-content {
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 65px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.headshot {
+    justify-content: center;
+    display: flex;
+    height: 220px;
+    width: 161px;
+    margin: 10px;
+    border-radius: 101px;
+    margin: 3px;
+    padding: 4px;
+    
+}
+
+.headshot:hover {
+  box-shadow: 0 0 8px rgba(143, 141, 141, 0.6);
+ }
+
+
+ .about-me  {
+    display: flex;
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    align-items: center;
+    width: 326px; 
+    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    
+}
+
+
+
+.project-section {
+    text-align: center;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+} 
+
+.project-links {
+    /* border: 1px solid black; */
+    border-radius:5px;
+    width: 200px;
+
+}
+
+
+
+a {
+    text-align: center;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+    border-radius: 5px;
+    padding: 85px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+#about-me-content #projectonelink:hover {
+    box-shadow: 0 0 8px rgba(143, 141, 141, 0.6);
+}
+  
+  #lab_social_icon_footer a {
+    color: gold;
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+  
+  #lab_social_icon_footer #social-tw:hover {
+    color: #0077B5;
+  }
+  
+  #lab_social_icon_footer #social-gp:hover {
+    color: black;
+  }
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+  }
+
+ //https://codepen.io/1wdtv/pen/ojKxaE?editors=1100
